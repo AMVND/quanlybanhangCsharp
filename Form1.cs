@@ -85,23 +85,15 @@ namespace QLBANHANG
 
         private void button3_Click(object sender, EventArgs e)
         {
-            lblTieude.Text = "SỬA MẶT HÀNG";
-           
-            txtMaSP.Text = "";
-            txtTenSP.Text = "";
-            dtpNgaySX.Value = DateTime.Today;
-            dtpNgayHH.Value = DateTime.Today;
-            txtDongia.Text = "";
-            txtDonvi.Text = "";
-            txtGhichu.Text = "";
-          
-            btnSua.Enabled = false;
+            //Cập nhật tiêu đề
+            lblTieude.Text = "CẬP NHẬT MẶT HÀNG";
+            //Ẩn hai nút Thêm và Sửa
+            btnThem.Enabled = false;
             btnXoa.Enabled = false;
-            //
-            btnLuu.Visible = true;
-            btnHuy.Visible = true;
+            //Hiện gropbox chi tiết
+            HienChiTiet(true);
         }
-
+       
         private void btnLuu_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(s);
@@ -138,7 +130,9 @@ namespace QLBANHANG
             con.Close();
             HienChiTiet(false);
             btnSua.Enabled = false;
-            btnXoa.Enabled = false;
+            btnXoa.Enabled = true;
+            btnThem.Enabled = true;
+           
         }
 
         private void btnTimkiem_Click(object sender, EventArgs e)
@@ -171,7 +165,7 @@ namespace QLBANHANG
         {
             btnSua.Enabled = true;
             btnXoa.Enabled = true;
-            btnThem.Enabled = false;
+            btnThem.Enabled = true;
 
             try
             {
@@ -188,16 +182,7 @@ namespace QLBANHANG
             }
         }
 
-        private void btnSua_Click(object sender, EventArgs e)
-        {
-
-            lblTieude.Text = "CẬP NHẬT MẶT HÀNG";
-            
-            btnThem.Enabled = false;
-            btnXoa.Enabled = false;
-
-            HienChiTiet(true);
-        }
+        
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
