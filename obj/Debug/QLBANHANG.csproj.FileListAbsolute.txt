@@ -1,0 +1,13 @@
+C:\Users\amvnd\source\repos\QLBANHANG\bin\Debug\QLBanhang.mdf
+C:\Users\amvnd\source\repos\QLBANHANG\bin\Debug\QLBanhang_log.ldf
+C:\Users\amvnd\source\repos\QLBANHANG\bin\Debug\QLBANHANG.exe.config
+C:\Users\amvnd\source\repos\QLBANHANG\bin\Debug\QLBANHANG.exe
+C:\Users\amvnd\source\repos\QLBANHANG\bin\Debug\QLBANHANG.pdb
+C:\Users\amvnd\source\repos\QLBANHANG\obj\Debug\QLBANHANG.csproj.AssemblyReference.cache
+C:\Users\amvnd\source\repos\QLBANHANG\obj\Debug\QLBANHANG.csproj.SuggestedBindingRedirects.cache
+C:\Users\amvnd\source\repos\QLBANHANG\obj\Debug\QLBANHANG.Properties.Resources.resources
+C:\Users\amvnd\source\repos\QLBANHANG\obj\Debug\QLBANHANG.csproj.GenerateResource.cache
+C:\Users\amvnd\source\repos\QLBANHANG\obj\Debug\QLBANHANG.csproj.CoreCompileInputs.cache
+C:\Users\amvnd\source\repos\QLBANHANG\obj\Debug\QLBANHANG.exe
+C:\Users\amvnd\source\repos\QLBANHANG\obj\Debug\QLBANHANG.pdb
+C:\Users\amvnd\source\repos\QLBANHANG\obj\Debug\QLBANHANG.Form1.resources
